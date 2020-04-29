@@ -1,0 +1,12 @@
+privilegeTargets:
+  'Neos\Flow\Security\Authorization\Privilege\Method\MethodPrivilege':
+    'DIU.Neos.HealthCheck:Check':
+      matcher: 'method(DIU\Neos\HealthCheck\Controller\HealthCheckController->(check)Action())'
+
+
+roles:
+  'Neos.Flow:Everybody':
+    privileges:
+      -
+        privilegeTarget: 'DIU.Neos.HealthCheck:Check'
+        permission: GRANT

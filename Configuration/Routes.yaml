@@ -1,0 +1,9 @@
+-
+  name: 'HealthCheck'
+  uriPattern: 'healthcheck'
+  defaults:
+    '@package': 'DIU.Neos.HealthCheck'
+    '@controller': 'HealthCheck'
+    '@action': 'check'
+  httpMethods: ['GET']
+  appendExceedingArguments: FALSE

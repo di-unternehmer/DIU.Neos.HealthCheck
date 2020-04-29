@@ -1,0 +1,6 @@
+Neos:
+  Flow:
+    mvc:
+      routes:
+        'DIU.Neos.HealthCheck':
+          position: 'before Neos.Neos'
