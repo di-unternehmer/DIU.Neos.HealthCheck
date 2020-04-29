@@ -1,7 +1,7 @@
 {
   "name": "diu/neos-healthcheck",
   "license": "GPL-3.0-or-later",
-  "description": "Returns only a html code 200 if Neos Flowframework is up",
+  "description": "Returns a json {'status':'OK'} if Neos Flowframework is up and a database connection was successful",
   "type": "neos-package",
   "require": {
       "neos/neos": "^5.0"
